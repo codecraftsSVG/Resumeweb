@@ -23,6 +23,7 @@ const App = () => {
     <div>
       <header>
         <h1>Welcome to My Portfolio</h1>
+        <h2>Current Language: {language}</h2>
       </header>
       
       <section>
@@ -47,6 +48,7 @@ const App = () => {
         </div>
       )}
     </div>
+    
   );
 };
 
